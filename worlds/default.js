@@ -39,9 +39,7 @@ export function init(Constants) {
                 layers: ["light"],
                 type: "lighting",
                 behaviorModules: ["Light"],
-                dataLocation: "./assets/sky/shanghai_riverside_2k.exr",
-                dataType: "exr",
-                toneMappingExposure: 1.2,
+                clearColor: 0xaabbff,
             }
         },
         {
