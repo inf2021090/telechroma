@@ -62,5 +62,21 @@ export function init(Constants) {
                 loadSynchronously: true,
             }
         },
+        {
+            card: {
+                translation: [-8.386168085755843, 0.5513715066261082, 1.8525159187801616],
+                scale: [0.42309445921482913, 0.42309445921482913, 0.42309445921482913],
+                rotation: [-0.047083509297983175, 0.7842899731479388, 0.03221561170841563, 0.6177657610567653],
+                layers: ["pointer"],
+                name: "marble_bust_01_4k.glb",
+                dataLocation: "3OQuvAm1c-8wKHK7AbQKtCDhN8mcNcXcO4f9Y4N-ziWQJzs7Pzx1YGApJiMqPGE6PGEsPSA-Oio7YSYgYDpgPCsHfHstJQEieh4lJHcMLXs8LHYudwwKHAt-fWAsICJhKCIuJiNhKC48JC4pfn17YSImLD0gOSo9PCpgDhZ4PQwKJgh4Ngh7JxU8HgUfJgYmGj4bICg4DScaKig_AAZ7Gi0QPwwXd2ArLjsuYCx9ATwdDDohBTY2K3chLCA7Oxx5CjtiAiIcGAcDBB55BjUpNxc3GggMCHs",
+                dataScale: [7.767846944202322, 7.767846944202322, 7.767846944202322],
+                fileName: "marble_bust_01_4k.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+            }
+        },
     ]
 }
