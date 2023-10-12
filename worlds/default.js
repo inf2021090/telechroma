@@ -6,7 +6,7 @@ export function init(Constants) {
 
     Constants.UserBehaviorDirectory = "behaviors/default";
     Constants.UserBehaviorModules = [
-        "lights.js"
+        "lights.js", "color.js", "pool.js"
     ];
 
     Constants.DefaultCards = [
@@ -76,6 +76,7 @@ export function init(Constants) {
                 shadow: true,
                 singleSided: true,
                 type: "3d",
+                behaviorModules: ["ColorChangeBehavior"],
             }
         },
     ]
